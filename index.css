@@ -1,0 +1,72 @@
+body{
+    
+    background: linear-gradient(rgb(68, 68, 207),rgb(65, 192, 65));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#container{
+    
+    text-align: center;
+    border: 3px dotted rgb(175, 214, 115);
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    max-width: 25%;
+    max-height: 25%;
+    box-shadow: 2px 15px 30px rgb(93, 168, 93);
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(180px);
+
+}
+
+#diceimages img{
+
+    
+    max-width: 100px;
+    max-height: 100px;
+    margin: 2px;
+    border: 5px solid rgb(77, 217, 77);
+
+}
+#inputnum{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(10, 12, 12);
+    background-color: rgb(138, 190, 138);
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    border-style: 3px dotted;
+    
+
+}
+#buttonnum{
+    
+    height: 100px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    color: rgb(29, 221, 157);
+    background-color: rgb(169, 224, 224);
+    border-radius: 15px;
+
+}
+#buttonnum:hover{
+    
+    background-color: rgb(47, 137, 137);
+    color: rgb(97, 209, 172);
+    border-style:  dotted;
+
+}
+
